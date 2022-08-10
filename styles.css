@@ -1,0 +1,46 @@
+.calculator {
+    background-color: darkgray;
+    max-width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+.display {
+    background-color: white;
+    text-align: right;
+    padding: 8px;
+    height: auto;
+    width: 220px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.buttons div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#\/, #\*, #\-, #\+ {
+    background-color: orange;
+}
+
+#c {
+    background-color: red;
+}
+#\= {
+    background-color: lightblue;
+}
